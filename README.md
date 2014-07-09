@@ -5,3 +5,6 @@ this is php script which fetch the top four colors from image and matched them w
 
 
 Currently It only work with PNG files. But we will add the support of other file formats.
+
+
+Feel free to report me for any bug!!!
