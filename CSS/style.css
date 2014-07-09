@@ -1,0 +1,73 @@
+input#gobutton{
+cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+padding:5px 25px; /*add some padding to the inside of the button*/
+background:#4371b4; /*the colour of the button*/
+border:1px solid #4371b4; /*required or the default border for the browser will appear*/
+/*give the button curved corners, alter the size as required*/
+
+border-radius: 4px;
+/*style the text*/
+color:white;
+}
+
+label input[type="file"] {
+    position: fixed;
+    top: -1000px;
+}
+
+/* Example custom styling */
+.button {
+    border: 1px solid blue;
+    border-radius: 4px;
+    padding: 5px 8px;
+    margin: 2px;
+    background: #4371b4;
+    display: inline-block;
+    color:white;
+}
+.button:hover {
+    background: #CCC;
+}
+.button:active {
+    background: #CCF;
+}
+
+form{
+	margin-left: 31%;
+}
+form > input{
+	margin-left: 4%;
+}
+
+.custom{
+	margin-top:5%;
+	margin-left:10%;
+    width:65%;
+	border:1px solid black;
+	padding:5%;
+	background-color: white;
+	height: 350px;
+}
+
+.innerdiv{
+	float:right;
+	margin-top:10px;
+}
+.chips{
+
+border-radius: 0px 12px 12px 0px;
+width:100px;
+height:50px;
+float:right;
+border:0px solid black;
+margin-bottom: 6px;
+margin-right: 32px;
+
+}
+
+.proc_label{
+    float:right;
+    margin-right: 44px;
+    margin-top:25px;
+    font-family:"Times New Roman",Times,serif;
+}
