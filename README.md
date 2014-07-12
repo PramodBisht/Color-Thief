@@ -1,4 +1,4 @@
-Top-4-Color-Picker-From-image
+Color-Thief
 =============================
 Grabs the dominant color or a representative color palette from an image.
 basically this is the php version of original Color-thief of Lokesh Dhakar(https://github.com/lokesh/color-thief)
