@@ -1,7 +1,7 @@
 Top-4-Color-Picker-From-image
 =============================
-
-this is php script which fetch the top four colors from image and matched them with the closest color present in our library.
+Grabs the dominant color or a representative color palette from an image.
+basically this is the php version of original Color-thief of Lokesh Dhakar(https://github.com/lokesh/color-thief)
 
 
 Currently It only work with PNG files. But we will add the support of other file formats.
