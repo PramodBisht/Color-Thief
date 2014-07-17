@@ -118,24 +118,7 @@
         $CMin=min($rprime,$gprime,$bprime);
         $delta=$CMax-$CMin;
         $L=($CMax+$CMin)/2;
-        /*
-        if($CMax==$rprime&&$delta!=0){
-            
-            echo $rprime."   ".$gprime."    ".$bprime;
-            echo "delta is ".$delta;
-            echo "<br>gprime -bprime is ".(($gprime-$bprime)/$delta)/6;
-            
-
-            $H=60*((($gprime-$bprime)/$delta)/6);
-
-        }
-        if($CMax==$gprime&&$delta!=0){
-            $H=60*((($bprime-$rprime)/$delta)+2);
-        }
-        if($CMax==$bprime&&$delta!=0){
-            $H=60*((($rprime-$gprime)/$delta)+4);
-        }
-       */
+        
         //new algo to find hue is  http://en.wikipedia.org/wiki/Hue#Computing_hue_from_RGB
 
         if($red>=$green&&$green>=$blue){
@@ -203,28 +186,15 @@
         $red=($code-($code%1000000))/1000000;
         $green=($code%1000000-$code%1000)/1000;
         $blue=$code%1000;
-        /*
-        echo "Red: $red <br> ";
-        echo "Green: $green<br>";
-        echo "Blue: $blue";
-        */
+      
         echo "<div class='chips' style='background:rgb($red,$green,$blue);float:left;height:50px;width:100px;border:1px black solid;' <br><br></div>";
-       // echo "converting RGB to HSL";
+       
         toHSL($red,$green,$blue);    
      }
-    // echo "1st color <br>";
      ColorDecoder($find1);
-    // echo "<hr>";
-    // echo "2nd color <br>";
      ColorDecoder($find2);
-   //  echo "<hr>";
-    // echo "3rd color <br>";
      ColorDecoder($find3);
-    // echo "<hr>";
-     //echo "4th color <br>";
      ColorDecoder($find4);
-    // echo "<hr>";
-
      echo "</div>";
      echo "</div>";
 
