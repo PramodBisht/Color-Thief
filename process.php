@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Top 4 Color Picker</title>
+	<title>Color Thief</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body style="background-color:#e4e3e2">  
@@ -46,7 +46,7 @@
      arsort($reduce);
      $newarr=array_slice($reduce,0,4);
     
-     $find1=$newarr[0];
+     $find1=$newarr[0];  //store the rgb of 1st color
      $find2=$newarr[1];
      $find3=$newarr[2];
      $find4=$newarr[3];
